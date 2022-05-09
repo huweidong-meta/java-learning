@@ -1,4 +1,4 @@
-package com.hwd.study.api.pojo;
+package com.hwd.study.collection.pojo;
 
 import java.util.Objects;
 

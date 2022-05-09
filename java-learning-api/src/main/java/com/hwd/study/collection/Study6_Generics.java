@@ -1,9 +1,9 @@
-package com.hwd.study.api;
+package com.hwd.study.collection;
 
-import com.hwd.study.api.generics.MyGenerics;
-import com.hwd.study.api.generics.MyGenericsImpl;
-import com.hwd.study.api.generics.MyGenericsImpl2;
-import com.hwd.study.api.generics.MyGenericsMethod;
+import com.hwd.study.collection.generics.MyGenerics;
+import com.hwd.study.collection.generics.MyGenericsImpl;
+import com.hwd.study.collection.generics.MyGenericsImpl2;
+import com.hwd.study.collection.generics.MyGenericsMethod;
 
 /**
  * 使用范型类 MyGenerics

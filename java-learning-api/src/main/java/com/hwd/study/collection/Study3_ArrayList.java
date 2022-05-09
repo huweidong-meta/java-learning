@@ -1,6 +1,6 @@
-package com.hwd.study.api;
+package com.hwd.study.collection;
 
-import com.hwd.study.api.pojo.Student;
+import com.hwd.study.collection.pojo.Student;
 
 import java.util.ArrayList;
 import java.util.List;

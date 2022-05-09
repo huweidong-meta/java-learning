@@ -1,4 +1,4 @@
-package com.hwd.study.api.generics;
+package com.hwd.study.collection.generics;
 
 /**
  * 泛型接口：

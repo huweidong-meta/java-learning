@@ -1,6 +1,6 @@
-package com.hwd.study.api;
+package com.hwd.study.collection;
 
-import com.hwd.study.api.pojo.Person;
+import com.hwd.study.collection.pojo.Person;
 
 import java.util.HashSet;
 
@@ -11,7 +11,7 @@ import java.util.HashSet;
  * 1、根据hashcode计算保存的位置，如果位置为空直接保存，如果不为空执行第二步
  * 2、再执行equals方法，如果equals方法为true，则为重复，否则形成链表
  */
-public class Study7_HashSet {
+public class Study8_HashSet {
 
     public static void main(String[] args) {
         // 创建集合，添加元素

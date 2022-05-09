@@ -1,4 +1,4 @@
-package com.hwd.study.api;
+package com.hwd.study.collection;
 
 import java.util.ArrayList;
 import java.util.Collection;
