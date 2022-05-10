@@ -28,11 +28,11 @@ public class Study5_LinkedList {
         System.out.println(linkedList.toString());
 
         // 3、遍历
-        System.out.println("for循环遍历：");
-        System.out.println("增强for循环遍历：");
-        System.out.println("使用迭代器遍历：");
-        System.out.println("使用列表迭代器正序：");
-        System.out.println("使用列表迭代器逆序：");
+        System.out.println("可以使用for循环遍历。");
+        System.out.println("可以使用增强for遍历。");
+        System.out.println("可以使用迭代器遍历。");
+        System.out.println("可以使用列表迭代器从前往后。");
+        System.out.println("可以使用列表迭代器从后往前。");
 
         // 4、判断
         System.out.println(linkedList.contains("b"));

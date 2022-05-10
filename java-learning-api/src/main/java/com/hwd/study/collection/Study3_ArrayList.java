@@ -3,6 +3,7 @@ package com.hwd.study.collection;
 import com.hwd.study.collection.pojo.Student;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
 
@@ -33,13 +34,18 @@ public class Study3_ArrayList {
 //        arrayList.clear();    // 清空元素
 
         // 3、遍历
+        System.out.println("可以使用for循环遍历。");
+        System.out.println("可以使用增强for遍历。");
+        System.out.println("可以使用迭代器遍历。");
+
         ListIterator<Student> iterator = arrayList.listIterator();
-        System.out.println("开始正序遍历：");
+        System.out.println("也可以使用列表迭代器正序遍历：");
         while (iterator.hasNext()){
             System.out.println(iterator.nextIndex());
             System.out.println(iterator.next());
         }
-        System.out.println("开始逆序遍历：");
+
+        System.out.println("也可以使用列表迭代器逆序遍历：");
         while (iterator.hasPrevious()){
             System.out.println(iterator.previousIndex());
             System.out.println(iterator.previous());

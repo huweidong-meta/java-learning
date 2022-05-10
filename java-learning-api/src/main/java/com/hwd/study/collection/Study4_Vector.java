@@ -1,8 +1,6 @@
 package com.hwd.study.collection;
 
-import java.util.Enumeration;
-import java.util.Objects;
-import java.util.Vector;
+import java.util.*;
 
 /**
  * Vector 是 List 接口的实现类
@@ -29,7 +27,13 @@ public class Study4_Vector {
 //        vector.clear();   // 清空元素
 
         // 3、遍历
-        System.out.println("使用枚举器遍历：");
+        System.out.println("可以使用for循环遍历。");
+        System.out.println("可以使用增强for遍历。");
+        System.out.println("可以使用迭代器遍历。");
+        System.out.println("可以使用列表迭代器从前往后。");
+        System.out.println("可以使用列表迭代器从后往前。");
+
+        System.out.println("特有的还可以使用枚举器遍历：");
         Enumeration<Integer> enumeration = vector.elements();
         while (enumeration.hasMoreElements()){
             Integer o = enumeration.nextElement();

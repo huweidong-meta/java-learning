@@ -51,8 +51,6 @@ public class Study2_List {
             System.out.println(it.next());
         }
 
-
-        System.out.println("使用列表迭代器：");
         ListIterator listIterator = list.listIterator();
 
         System.out.println("使用列表迭代器从前往后：");
