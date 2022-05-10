@@ -8,6 +8,10 @@ import java.util.ArrayList;
  *  默认容量大小：  int DEFAULT_CAPACITY = 10
  *  存放元素的数组：Object[] elementData
  *  实际元素的个数：int size
+ *
+ *  结论：
+ *  添加第一个元素的时候容量变成了 10
+ *  扩容后的容量大小每次为原来的1.5倍
  */
 public class Source1_ArrayList {
 
