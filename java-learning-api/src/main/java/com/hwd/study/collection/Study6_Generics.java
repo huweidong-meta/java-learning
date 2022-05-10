@@ -14,7 +14,7 @@ import com.hwd.study.collection.generics.MyGenericsMethod;
  * 1、泛型只能使用引用类型     2、不同泛型对象不能相互复制
  *
  */
-public class Study6_Generics<T> {
+public class Study6_Generics {
 
     public static void main(String[] args) {
         // 泛型类 MyGenerics
