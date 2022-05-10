@@ -5,6 +5,12 @@ import java.util.Set;
 
 /**
  * 源码分析：HashSet
+ *
+ * HashSet 存储结构使用了HashMap
+ *
+ * 同样地
+ * TreeSet 存储结构使用了TreeMap
+ *
  */
 public class Source4_HashSet {
 

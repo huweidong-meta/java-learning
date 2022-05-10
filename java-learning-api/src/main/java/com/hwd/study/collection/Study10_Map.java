@@ -29,8 +29,8 @@ public class Study10_Map {
 
         //  3、遍历
         System.out.println("使用keySet()遍历");
-//        Set<String> keySet = map.keySet();
-        for (String s: map.keySet()) {
+        Set<String> keySet = map.keySet();
+        for (String s: keySet) {
             System.out.println(s + ":" + map.get(s));
         }
 

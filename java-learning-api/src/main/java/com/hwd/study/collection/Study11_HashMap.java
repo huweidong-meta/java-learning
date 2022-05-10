@@ -7,7 +7,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * HashMap 集合的使用
+ * HashMap 的使用，接口Map的实现类
  *
  * 储存结构：数组+链表+红黑树
  */

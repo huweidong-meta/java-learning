@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.ListIterator;
 
 /**
- * ArrayList 是 List 接口的实现类
+ * ArrayList 是 List接口的实现类
  * 存储结构：数组【查找遍历速度快，增删慢】
  */
 public class Study3_ArrayList {

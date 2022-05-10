@@ -6,15 +6,18 @@ import com.hwd.study.collection.generics.MyGenericsImpl2;
 import com.hwd.study.collection.generics.MyGenericsMethod;
 
 /**
- * 使用范型类 MyGenerics
+ * 泛型的使用：1、泛型类 2、泛型接口  3、泛型方法
+ *
+ * 泛型的好处：1、好处提高代码重用性(不需要再写重载) 2、防止类型转换异常，提升代码的安全性
  *
  * 注意：
  * 1、泛型只能使用引用类型     2、不同泛型对象不能相互复制
+ *
  */
 public class Study6_Generics<T> {
 
     public static void main(String[] args) {
-        // 泛型类
+        // 泛型类 MyGenerics
         MyGenerics<String> myGenerics = new MyGenerics();
         myGenerics.show("hello");
         myGenerics.t = "world";
@@ -38,9 +41,6 @@ public class Study6_Generics<T> {
         method.show("happy");
         method.show(200);
         method.show(5.21);
-        /**
-         * 泛型的好处：1、好处提高代码重用性(不需要再写重载) 2、防止类型转换异常，提升代码的安全性
-         */
 
     }
 }

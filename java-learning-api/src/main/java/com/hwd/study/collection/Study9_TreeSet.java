@@ -23,7 +23,7 @@ public class Study9_TreeSet {
         Person p3 = new Person("e", 59);
         Person p4 = new Person("d", 20);
 
-        // 集合的使用要求元素实现接口Comparable
+        // 1、集合的使用要求元素实现【接口Comparable】
         TreeSet<Person> treeSetComparable = new TreeSet<>();
         treeSetComparable.add(p1);
         treeSetComparable.add(p2);
@@ -31,7 +31,9 @@ public class Study9_TreeSet {
         treeSetComparable.add(p4);
         System.out.println(treeSetComparable);
 
-        // 也可以使用比较器实现定制比较
+
+
+        // 2、也可以使用【比较器Comparator】实现定制比较
         TreeSet<Person> treeSetComparator = new TreeSet<>(new Comparator<Person>() {
             @Override
             public int compare(Person p1, Person p2) {

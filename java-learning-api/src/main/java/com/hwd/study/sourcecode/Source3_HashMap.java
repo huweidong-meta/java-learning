@@ -100,7 +100,7 @@ public class Source3_HashMap {
 
 */
         /**
-         * map 扩容的方法 resize()
+         * map 扩容的方法 resize()，方法比较大，先【关键】标记一些关键的代码
          */
 /*
         final HashMap.Node<K, V>[] resize() {
@@ -131,7 +131,7 @@ public class Source3_HashMap {
             }
 
             this.threshold = newThr;
-            HashMap.Node<K, V>[] newTab = new HashMap.Node[newCap];
+            HashMap.Node<K, V>[] newTab = new HashMap.Node[newCap];     // 【关键】
             this.table = newTab;
             if (oldTab != null) {
                 for(int j = 0; j < oldCap; ++j) {

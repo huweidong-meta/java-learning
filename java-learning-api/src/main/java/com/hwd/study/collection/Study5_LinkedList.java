@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * LinkedList 是 List 接口的实现类
+ * LinkedList 是 List接口的实现类
  * 存储结构：双向链表【增删快，查找遍历慢】
  */
 public class Study5_LinkedList {

@@ -3,7 +3,7 @@ package com.hwd.study.collection;
 import java.util.*;
 
 /**
- * Vector 是 List 接口的实现类
+ * Vector 是 List接口的实现类
  * 存储结构：数组
  * 从Java 2平台v1.2，这个类被改造为实现List接口，和ArrayList不同的是，Vector是线程安全的。
  */
