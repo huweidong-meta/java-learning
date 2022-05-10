@@ -2,7 +2,7 @@ package com.hwd.study.collection.pojo;
 
 import java.util.Objects;
 
-public class Person {
+public class Person implements Comparable<Person>{
     private String name;
     private Integer age;
 
@@ -46,5 +46,13 @@ public class Person {
         if (o == null || getClass() != o.getClass()) return false;
         Person person = (Person) o;
         return Objects.equals(name, person.name) && Objects.equals(age, person.age);
+    }
+
+    @Override
+    public int compareTo(Person person) {
+        // 先比较名字再比较年龄
+        int r1 = this.name.compareTo(person.name);
+        int r2 = this.age.compareTo(person.age);
+        return r1 == 0 ? r2 : r1;
     }
 }
